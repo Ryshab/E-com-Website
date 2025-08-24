@@ -78,13 +78,19 @@ A portfolio project demonstrating a full‑stack e‑commerce workflow: product 
 
 \- Home grid with product cards and working search dropdown
 
+<img src="docs/home.png" alt="Home Page" width="700">
+
 
 
 \- Cart page with quantity controls and computed total
 
+<img src="docs/cart.png" alt="Shopping Cart Page" width="700">
+
 
 
 \- Product detail page with update/delete actions and listed date
+
+<img src="docs/product.png" alt="Product Page" width="700">
 
 
 
