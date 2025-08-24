@@ -72,7 +72,7 @@ A portfolio project demonstrating a full‑stack e‑commerce workflow: product 
 
 
 
-&nbsp;	<img src="docs/screenshots/addproduct.png" alt="Add Product" width="700">
+&nbsp;	<img src="docs/addproduct.png" alt="Add Product" width="700">
 
 
 
