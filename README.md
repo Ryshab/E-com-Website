@@ -72,11 +72,16 @@ A portfolio project demonstrating a full‑stack e‑commerce workflow: product 
 
 
 
+&nbsp;	<img src="docs/screenshots/addproduct.png" alt="Add Product" width="700">
+
+
 
 \- Home grid with product cards and working search dropdown
 
 
+
 \- Cart page with quantity controls and computed total
+
 
 
 \- Product detail page with update/delete actions and listed date
@@ -190,6 +195,7 @@ Run:
 
 
 
+
 \## Project Status
 
 
@@ -199,6 +205,7 @@ Run:
 \- Environment: local setup with MySQL
 
 \- Security: open endpoints for easier review
+
 
 
 
