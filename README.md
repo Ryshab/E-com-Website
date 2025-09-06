@@ -1,4 +1,4 @@
-﻿@@ -1,222 +1,222 @@
+﻿
 
 # ClipFart — E‑commerce Showcase (Spring Boot + React + MySQL)
 
