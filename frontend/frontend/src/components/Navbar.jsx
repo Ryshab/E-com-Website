@@ -106,7 +106,19 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
     <>
       <header>
         <nav className="navbar navbar-expand-lg fixed-top">
-          <div className="container-fluid">
+          <div className="container-fluid d-flex align-items-center">
+          <div className="navbar-logo me-3">
+              <img
+                src="logo.png"
+                alt="Logo"
+                style={{
+                  width: "48px",
+                  height: "48px",
+                  objectFit: "contain",
+                  borderRadius: "8px",
+                }}
+              />
+            </div>
             <a className="navbar-brand" href="https://github.com/Ryshab">
               ClipFart
             </a>

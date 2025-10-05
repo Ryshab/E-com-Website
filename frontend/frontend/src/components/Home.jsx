@@ -91,7 +91,7 @@ const Home = ({ selectedCategory }) => {
             };
             return (
               <div
-                className="card mb-3"
+                className="card mb-3 "
                 style={{
                   width: "250px",
                   height: "360px",
@@ -152,7 +152,7 @@ const Home = ({ selectedCategory }) => {
                         className="card-text"
                         style={{ fontWeight: "600", fontSize: "1.1rem",marginBottom:'5px' }}
                       >
-                        <i class="bi bi-currency-rupee"></i>
+                        <i className="bi bi-currency-rupee"></i>
                         {price}
                       </h5>
                     </div>
