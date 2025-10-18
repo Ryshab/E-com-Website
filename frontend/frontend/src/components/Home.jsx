@@ -5,6 +5,8 @@ import AppContext from "../Context/Context";
 import unplugged from "../assets/unplugged.png"
 
 const Home = ({ selectedCategory }) => {
+  console.log(5+4)
+  console.log(`here :: ${import.meta.env.VITE_API_URL}`);
   const { data, isError, addToCart, refreshData } = useContext(AppContext);
   const [products, setProducts] = useState([]);
   const [isDataFetched, setIsDataFetched] = useState(false);
@@ -23,7 +25,7 @@ const Home = ({ selectedCategory }) => {
           data.map(async (product) => {
             try {
               const response = await axios.get(
-                `http://localhost:8080/api/product/${product.id}/image`,
+                `${import.meta.env.VITE_API_URL}/api/product/${product.id}/image`,
                 { responseType: "blob" }
               );
               const imageUrl = URL.createObjectURL(response.data);
