@@ -5,8 +5,6 @@ import AppContext from "../Context/Context";
 import unplugged from "../assets/unplugged.png"
 
 const Home = ({ selectedCategory }) => {
-  console.log(5+4)
-  console.log(`here :: ${import.meta.env.VITE_API_URL}`);
   const { data, isError, addToCart, refreshData } = useContext(AppContext);
   const [products, setProducts] = useState([]);
   const [isDataFetched, setIsDataFetched] = useState(false);
