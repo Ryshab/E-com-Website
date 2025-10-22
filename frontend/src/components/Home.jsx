@@ -77,7 +77,7 @@ const Home = ({ selectedCategory }) => {
               alignItems: "center",
             }}
           >
-            No Products Available
+            Products loading...
           </h2>
         ) : (
           filteredProducts.map((product) => {
